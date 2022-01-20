@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48816B092799323E00FE73F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48816B082799323E00FE73F6 /* AppDelegate.swift */; };
+		48816B0B2799323E00FE73F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48816B0A2799323E00FE73F6 /* SceneDelegate.swift */; };
+		48816B0D2799323E00FE73F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48816B0C2799323E00FE73F6 /* ViewController.swift */; };
+		48816B102799323E00FE73F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48816B0E2799323E00FE73F6 /* Main.storyboard */; };
+		48816B132799323E00FE73F6 /* FandrumSocialMediaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48816B112799323E00FE73F6 /* FandrumSocialMediaApp.xcdatamodeld */; };
+		48816B152799323F00FE73F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48816B142799323F00FE73F6 /* Assets.xcassets */; };
+		48816B182799323F00FE73F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48816B162799323F00FE73F6 /* LaunchScreen.storyboard */; };
+		48816B232799324000FE73F6 /* FandrumSocialMediaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48816B222799324000FE73F6 /* FandrumSocialMediaAppTests.swift */; };
+		48816B2D2799324000FE73F6 /* FandrumSocialMediaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48816B2C2799324000FE73F6 /* FandrumSocialMediaAppUITests.swift */; };
+		48816B2F2799324000FE73F6 /* FandrumSocialMediaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48816B2E2799324000FE73F6 /* FandrumSocialMediaAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48816B1F2799324000FE73F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48816AFD2799323E00FE73F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48816B042799323E00FE73F6;
+			remoteInfo = FandrumSocialMediaApp;
+		};
+		48816B292799324000FE73F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48816AFD2799323E00FE73F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48816B042799323E00FE73F6;
+			remoteInfo = FandrumSocialMediaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48816B052799323E00FE73F6 /* FandrumSocialMediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FandrumSocialMediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48816B082799323E00FE73F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48816B0A2799323E00FE73F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		48816B0C2799323E00FE73F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48816B0F2799323E00FE73F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48816B122799323E00FE73F6 /* FandrumSocialMediaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FandrumSocialMediaApp.xcdatamodel; sourceTree = "<group>"; };
+		48816B142799323F00FE73F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48816B172799323F00FE73F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48816B192799323F00FE73F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48816B1E2799324000FE73F6 /* FandrumSocialMediaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FandrumSocialMediaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48816B222799324000FE73F6 /* FandrumSocialMediaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FandrumSocialMediaAppTests.swift; sourceTree = "<group>"; };
+		48816B282799324000FE73F6 /* FandrumSocialMediaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FandrumSocialMediaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48816B2C2799324000FE73F6 /* FandrumSocialMediaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FandrumSocialMediaAppUITests.swift; sourceTree = "<group>"; };
+		48816B2E2799324000FE73F6 /* FandrumSocialMediaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FandrumSocialMediaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48816B022799323E00FE73F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48816B1B2799324000FE73F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48816B252799324000FE73F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48816AFC2799323E00FE73F6 = {
+			isa = PBXGroup;
+			children = (
+				48816B072799323E00FE73F6 /* FandrumSocialMediaApp */,
+				48816B212799324000FE73F6 /* FandrumSocialMediaAppTests */,
+				48816B2B2799324000FE73F6 /* FandrumSocialMediaAppUITests */,
+				48816B062799323E00FE73F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48816B062799323E00FE73F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48816B052799323E00FE73F6 /* FandrumSocialMediaApp.app */,
+				48816B1E2799324000FE73F6 /* FandrumSocialMediaAppTests.xctest */,
+				48816B282799324000FE73F6 /* FandrumSocialMediaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48816B072799323E00FE73F6 /* FandrumSocialMediaApp */ = {
+			isa = PBXGroup;
+			children = (
+				48816B082799323E00FE73F6 /* AppDelegate.swift */,
+				48816B0A2799323E00FE73F6 /* SceneDelegate.swift */,
+				48816B0C2799323E00FE73F6 /* ViewController.swift */,
+				48816B0E2799323E00FE73F6 /* Main.storyboard */,
+				48816B142799323F00FE73F6 /* Assets.xcassets */,
+				48816B162799323F00FE73F6 /* LaunchScreen.storyboard */,
+				48816B192799323F00FE73F6 /* Info.plist */,
+				48816B112799323E00FE73F6 /* FandrumSocialMediaApp.xcdatamodeld */,
+			);
+			path = FandrumSocialMediaApp;
+			sourceTree = "<group>";
+		};
+		48816B212799324000FE73F6 /* FandrumSocialMediaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				48816B222799324000FE73F6 /* FandrumSocialMediaAppTests.swift */,
+			);
+			path = FandrumSocialMediaAppTests;
+			sourceTree = "<group>";
+		};
+		48816B2B2799324000FE73F6 /* FandrumSocialMediaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48816B2C2799324000FE73F6 /* FandrumSocialMediaAppUITests.swift */,
+				48816B2E2799324000FE73F6 /* FandrumSocialMediaAppUITestsLaunchTests.swift */,
+			);
+			path = FandrumSocialMediaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48816B042799323E00FE73F6 /* FandrumSocialMediaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48816B322799324000FE73F6 /* Build configuration list for PBXNativeTarget "FandrumSocialMediaApp" */;
+			buildPhases = (
+				48816B012799323E00FE73F6 /* Sources */,
+				48816B022799323E00FE73F6 /* Frameworks */,
+				48816B032799323E00FE73F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FandrumSocialMediaApp;
+			productName = FandrumSocialMediaApp;
+			productReference = 48816B052799323E00FE73F6 /* FandrumSocialMediaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48816B1D2799324000FE73F6 /* FandrumSocialMediaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48816B352799324000FE73F6 /* Build configuration list for PBXNativeTarget "FandrumSocialMediaAppTests" */;
+			buildPhases = (
+				48816B1A2799324000FE73F6 /* Sources */,
+				48816B1B2799324000FE73F6 /* Frameworks */,
+				48816B1C2799324000FE73F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48816B202799324000FE73F6 /* PBXTargetDependency */,
+			);
+			name = FandrumSocialMediaAppTests;
+			productName = FandrumSocialMediaAppTests;
+			productReference = 48816B1E2799324000FE73F6 /* FandrumSocialMediaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48816B272799324000FE73F6 /* FandrumSocialMediaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48816B382799324000FE73F6 /* Build configuration list for PBXNativeTarget "FandrumSocialMediaAppUITests" */;
+			buildPhases = (
+				48816B242799324000FE73F6 /* Sources */,
+				48816B252799324000FE73F6 /* Frameworks */,
+				48816B262799324000FE73F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48816B2A2799324000FE73F6 /* PBXTargetDependency */,
+			);
+			name = FandrumSocialMediaAppUITests;
+			productName = FandrumSocialMediaAppUITests;
+			productReference = 48816B282799324000FE73F6 /* FandrumSocialMediaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48816AFD2799323E00FE73F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					48816B042799323E00FE73F6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					48816B1D2799324000FE73F6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 48816B042799323E00FE73F6;
+					};
+					48816B272799324000FE73F6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 48816B042799323E00FE73F6;
+					};
+				};
+			};
+			buildConfigurationList = 48816B002799323E00FE73F6 /* Build configuration list for PBXProject "FandrumSocialMediaApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48816AFC2799323E00FE73F6;
+			productRefGroup = 48816B062799323E00FE73F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48816B042799323E00FE73F6 /* FandrumSocialMediaApp */,
+				48816B1D2799324000FE73F6 /* FandrumSocialMediaAppTests */,
+				48816B272799324000FE73F6 /* FandrumSocialMediaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48816B032799323E00FE73F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48816B182799323F00FE73F6 /* LaunchScreen.storyboard in Resources */,
+				48816B152799323F00FE73F6 /* Assets.xcassets in Resources */,
+				48816B102799323E00FE73F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48816B1C2799324000FE73F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48816B262799324000FE73F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48816B012799323E00FE73F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48816B0D2799323E00FE73F6 /* ViewController.swift in Sources */,
+				48816B092799323E00FE73F6 /* AppDelegate.swift in Sources */,
+				48816B0B2799323E00FE73F6 /* SceneDelegate.swift in Sources */,
+				48816B132799323E00FE73F6 /* FandrumSocialMediaApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48816B1A2799324000FE73F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48816B232799324000FE73F6 /* FandrumSocialMediaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48816B242799324000FE73F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48816B2F2799324000FE73F6 /* FandrumSocialMediaAppUITestsLaunchTests.swift in Sources */,
+				48816B2D2799324000FE73F6 /* FandrumSocialMediaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48816B202799324000FE73F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48816B042799323E00FE73F6 /* FandrumSocialMediaApp */;
+			targetProxy = 48816B1F2799324000FE73F6 /* PBXContainerItemProxy */;
+		};
+		48816B2A2799324000FE73F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48816B042799323E00FE73F6 /* FandrumSocialMediaApp */;
+			targetProxy = 48816B292799324000FE73F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48816B0E2799323E00FE73F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48816B0F2799323E00FE73F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48816B162799323F00FE73F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48816B172799323F00FE73F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48816B302799324000FE73F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48816B312799324000FE73F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48816B332799324000FE73F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FandrumSocialMediaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adxioo.com.FandrumSocialMediaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48816B342799324000FE73F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FandrumSocialMediaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adxioo.com.FandrumSocialMediaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48816B362799324000FE73F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adxioo.com.FandrumSocialMediaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FandrumSocialMediaApp.app/FandrumSocialMediaApp";
+			};
+			name = Debug;
+		};
+		48816B372799324000FE73F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adxioo.com.FandrumSocialMediaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FandrumSocialMediaApp.app/FandrumSocialMediaApp";
+			};
+			name = Release;
+		};
+		48816B392799324000FE73F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adxioo.com.FandrumSocialMediaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FandrumSocialMediaApp;
+			};
+			name = Debug;
+		};
+		48816B3A2799324000FE73F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adxioo.com.FandrumSocialMediaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FandrumSocialMediaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48816B002799323E00FE73F6 /* Build configuration list for PBXProject "FandrumSocialMediaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48816B302799324000FE73F6 /* Debug */,
+				48816B312799324000FE73F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48816B322799324000FE73F6 /* Build configuration list for PBXNativeTarget "FandrumSocialMediaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48816B332799324000FE73F6 /* Debug */,
+				48816B342799324000FE73F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48816B352799324000FE73F6 /* Build configuration list for PBXNativeTarget "FandrumSocialMediaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48816B362799324000FE73F6 /* Debug */,
+				48816B372799324000FE73F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48816B382799324000FE73F6 /* Build configuration list for PBXNativeTarget "FandrumSocialMediaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48816B392799324000FE73F6 /* Debug */,
+				48816B3A2799324000FE73F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48816B112799323E00FE73F6 /* FandrumSocialMediaApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48816B122799323E00FE73F6 /* FandrumSocialMediaApp.xcdatamodel */,
+			);
+			currentVersion = 48816B122799323E00FE73F6 /* FandrumSocialMediaApp.xcdatamodel */;
+			path = FandrumSocialMediaApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 48816AFD2799323E00FE73F6 /* Project object */;
+}

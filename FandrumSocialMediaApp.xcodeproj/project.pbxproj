@@ -9,14 +9,18 @@
 /* Begin PBXBuildFile section */
 		48816B092799323E00FE73F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48816B082799323E00FE73F6 /* AppDelegate.swift */; };
 		48816B0B2799323E00FE73F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48816B0A2799323E00FE73F6 /* SceneDelegate.swift */; };
-		48816B0D2799323E00FE73F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48816B0C2799323E00FE73F6 /* ViewController.swift */; };
-		48816B102799323E00FE73F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48816B0E2799323E00FE73F6 /* Main.storyboard */; };
 		48816B132799323E00FE73F6 /* FandrumSocialMediaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48816B112799323E00FE73F6 /* FandrumSocialMediaApp.xcdatamodeld */; };
-		48816B152799323F00FE73F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48816B142799323F00FE73F6 /* Assets.xcassets */; };
 		48816B182799323F00FE73F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48816B162799323F00FE73F6 /* LaunchScreen.storyboard */; };
 		48816B232799324000FE73F6 /* FandrumSocialMediaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48816B222799324000FE73F6 /* FandrumSocialMediaAppTests.swift */; };
 		48816B2D2799324000FE73F6 /* FandrumSocialMediaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48816B2C2799324000FE73F6 /* FandrumSocialMediaAppUITests.swift */; };
 		48816B2F2799324000FE73F6 /* FandrumSocialMediaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48816B2E2799324000FE73F6 /* FandrumSocialMediaAppUITestsLaunchTests.swift */; };
+		48816B3E2799329600FE73F6 /* FanrdumpostDetailsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48816B3C2799329600FE73F6 /* FanrdumpostDetailsVc.swift */; };
+		48816B3F2799329600FE73F6 /* FandrumHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48816B3D2799329600FE73F6 /* FandrumHomePage.swift */; };
+		48816B44279932D400FE73F6 /* moreVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 48816B40279932D400FE73F6 /* moreVideo.mp4 */; };
+		48816B46279932D400FE73F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48816B42279932D400FE73F6 /* Main.storyboard */; };
+		48816B47279932D400FE73F6 /* train.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 48816B43279932D400FE73F6 /* train.m4v */; };
+		48816B4B279938E900FE73F6 /* Assets.xcassets 11-48-52-989.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48816B4A279938E900FE73F6 /* Assets.xcassets 11-48-52-989.xcassets */; };
+		C5C27F9D4610790249917406 /* libPods-FandrumSocialMediaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EBD4D4D7C1E3818D06E1F4 /* libPods-FandrumSocialMediaApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C14E08115C8684B26803D1E /* Pods-FandrumSocialMediaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FandrumSocialMediaApp.debug.xcconfig"; path = "Target Support Files/Pods-FandrumSocialMediaApp/Pods-FandrumSocialMediaApp.debug.xcconfig"; sourceTree = "<group>"; };
 		48816B052799323E00FE73F6 /* FandrumSocialMediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FandrumSocialMediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48816B082799323E00FE73F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48816B0A2799323E00FE73F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		48816B0C2799323E00FE73F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		48816B0F2799323E00FE73F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48816B122799323E00FE73F6 /* FandrumSocialMediaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FandrumSocialMediaApp.xcdatamodel; sourceTree = "<group>"; };
-		48816B142799323F00FE73F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48816B172799323F00FE73F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48816B192799323F00FE73F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48816B1E2799324000FE73F6 /* FandrumSocialMediaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FandrumSocialMediaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +53,14 @@
 		48816B282799324000FE73F6 /* FandrumSocialMediaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FandrumSocialMediaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48816B2C2799324000FE73F6 /* FandrumSocialMediaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FandrumSocialMediaAppUITests.swift; sourceTree = "<group>"; };
 		48816B2E2799324000FE73F6 /* FandrumSocialMediaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FandrumSocialMediaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48816B3C2799329600FE73F6 /* FanrdumpostDetailsVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanrdumpostDetailsVc.swift; sourceTree = "<group>"; };
+		48816B3D2799329600FE73F6 /* FandrumHomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FandrumHomePage.swift; sourceTree = "<group>"; };
+		48816B40279932D400FE73F6 /* moreVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moreVideo.mp4; sourceTree = "<group>"; };
+		48816B42279932D400FE73F6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		48816B43279932D400FE73F6 /* train.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = train.m4v; sourceTree = "<group>"; };
+		48816B4A279938E900FE73F6 /* Assets.xcassets 11-48-52-989.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets 11-48-52-989.xcassets"; sourceTree = "<group>"; };
+		82EBD4D4D7C1E3818D06E1F4 /* libPods-FandrumSocialMediaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FandrumSocialMediaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C5F0FB664C84CB59D96493 /* Pods-FandrumSocialMediaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FandrumSocialMediaApp.release.xcconfig"; path = "Target Support Files/Pods-FandrumSocialMediaApp/Pods-FandrumSocialMediaApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5C27F9D4610790249917406 /* libPods-FandrumSocialMediaApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01FB3B3E9526526228D33F77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C14E08115C8684B26803D1E /* Pods-FandrumSocialMediaApp.debug.xcconfig */,
+				F3C5F0FB664C84CB59D96493 /* Pods-FandrumSocialMediaApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		34E2B1B3B8876EC024A0C5F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82EBD4D4D7C1E3818D06E1F4 /* libPods-FandrumSocialMediaApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		48816AFC2799323E00FE73F6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				48816B212799324000FE73F6 /* FandrumSocialMediaAppTests */,
 				48816B2B2799324000FE73F6 /* FandrumSocialMediaAppUITests */,
 				48816B062799323E00FE73F6 /* Products */,
+				01FB3B3E9526526228D33F77 /* Pods */,
+				34E2B1B3B8876EC024A0C5F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +131,13 @@
 		48816B072799323E00FE73F6 /* FandrumSocialMediaApp */ = {
 			isa = PBXGroup;
 			children = (
+				48816B3B2799326100FE73F6 /* fandrumtab */,
 				48816B082799323E00FE73F6 /* AppDelegate.swift */,
+				48816B4A279938E900FE73F6 /* Assets.xcassets 11-48-52-989.xcassets */,
+				48816B42279932D400FE73F6 /* Main.storyboard */,
+				48816B40279932D400FE73F6 /* moreVideo.mp4 */,
+				48816B43279932D400FE73F6 /* train.m4v */,
 				48816B0A2799323E00FE73F6 /* SceneDelegate.swift */,
-				48816B0C2799323E00FE73F6 /* ViewController.swift */,
-				48816B0E2799323E00FE73F6 /* Main.storyboard */,
-				48816B142799323F00FE73F6 /* Assets.xcassets */,
 				48816B162799323F00FE73F6 /* LaunchScreen.storyboard */,
 				48816B192799323F00FE73F6 /* Info.plist */,
 				48816B112799323E00FE73F6 /* FandrumSocialMediaApp.xcdatamodeld */,
@@ -130,6 +162,15 @@
 			path = FandrumSocialMediaAppUITests;
 			sourceTree = "<group>";
 		};
+		48816B3B2799326100FE73F6 /* fandrumtab */ = {
+			isa = PBXGroup;
+			children = (
+				48816B3D2799329600FE73F6 /* FandrumHomePage.swift */,
+				48816B3C2799329600FE73F6 /* FanrdumpostDetailsVc.swift */,
+			);
+			path = fandrumtab;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48816B322799324000FE73F6 /* Build configuration list for PBXNativeTarget "FandrumSocialMediaApp" */;
 			buildPhases = (
+				5ED31CB96A8A68F0997B8FBE /* [CP] Check Pods Manifest.lock */,
 				48816B012799323E00FE73F6 /* Sources */,
 				48816B022799323E00FE73F6 /* Frameworks */,
 				48816B032799323E00FE73F6 /* Resources */,
+				26BE77CC70C05E0D27C9C5C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,8 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				48816B182799323F00FE73F6 /* LaunchScreen.storyboard in Resources */,
-				48816B152799323F00FE73F6 /* Assets.xcassets in Resources */,
-				48816B102799323E00FE73F6 /* Main.storyboard in Resources */,
+				48816B46279932D400FE73F6 /* Main.storyboard in Resources */,
+				48816B4B279938E900FE73F6 /* Assets.xcassets 11-48-52-989.xcassets in Resources */,
+				48816B47279932D400FE73F6 /* train.m4v in Resources */,
+				48816B44279932D400FE73F6 /* moreVideo.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +301,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26BE77CC70C05E0D27C9C5C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FandrumSocialMediaApp/Pods-FandrumSocialMediaApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FandrumSocialMediaApp/Pods-FandrumSocialMediaApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FandrumSocialMediaApp/Pods-FandrumSocialMediaApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ED31CB96A8A68F0997B8FBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FandrumSocialMediaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		48816B012799323E00FE73F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48816B0D2799323E00FE73F6 /* ViewController.swift in Sources */,
 				48816B092799323E00FE73F6 /* AppDelegate.swift in Sources */,
 				48816B0B2799323E00FE73F6 /* SceneDelegate.swift in Sources */,
+				48816B3F2799329600FE73F6 /* FandrumHomePage.swift in Sources */,
 				48816B132799323E00FE73F6 /* FandrumSocialMediaApp.xcdatamodeld in Sources */,
+				48816B3E2799329600FE73F6 /* FanrdumpostDetailsVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +389,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		48816B0E2799323E00FE73F6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48816B0F2799323E00FE73F6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		48816B162799323F00FE73F6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,6 +518,7 @@
 		};
 		48816B332799324000FE73F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C14E08115C8684B26803D1E /* Pods-FandrumSocialMediaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,6 +546,7 @@
 		};
 		48816B342799324000FE73F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C5F0FB664C84CB59D96493 /* Pods-FandrumSocialMediaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

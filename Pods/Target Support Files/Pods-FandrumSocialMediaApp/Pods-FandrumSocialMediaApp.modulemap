@@ -1,0 +1,6 @@
+module Pods_FandrumSocialMediaApp {
+  umbrella header "Pods-FandrumSocialMediaApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
